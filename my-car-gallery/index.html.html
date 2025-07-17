@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой сайт</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #005A9C;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    main {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .content, .sidebar {
+      width: 45%;
+    }
+    .sidebar {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    img {
+      width: 100%;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MySite</h1>
+    <nav>
+      <a href="#">Главная</a>
+      <a href="#">О нас</a>
+      <a href="#">Услуги</a>
+      <a href="#">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content">
+      <h2>Добро пожаловать!</h2>
+      <p>Это главная страница сайта. Здесь вы найдете важную информацию и фотографии.</p>
+      <img src="https://i.ibb.co/fYYgjR6n/1000000841-jpg.jpg" alt="Фото 1">
+      <img src="https://i.ibb.co/1fryVn4t/1000000479-jpg.jpg" alt="Фото 2">
+    </div>
+    <div class="sidebar">
+      <h3>Новости</h3>
+      <p>Наша компания расширяется!</p>
+      <img src="https://i.ibb.co/LmhJbhX/1000000842-jpg.jpg" alt="Фото 3">
+    </div>
+  </main>
+
+  <footer>
+    © 2025 MySite. Все права защищены.
+  </footer>
+</body>
+</html>
